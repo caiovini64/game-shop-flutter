@@ -3,7 +3,7 @@ import 'package:steam_redesign/components/populars_games.dart';
 import 'package:steam_redesign/components/recommended_games.dart';
 import 'package:steam_redesign/components/search_box.dart';
 
-class ProductOverviewScreen extends StatelessWidget {
+class GameOverviewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
