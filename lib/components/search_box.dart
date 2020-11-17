@@ -12,6 +12,7 @@ class SearchBox extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: TextField(
+          style: TextStyle(color: Theme.of(context).primaryColorLight),
           keyboardType: TextInputType.name,
           decoration: InputDecoration(
             hintText: 'Search',
