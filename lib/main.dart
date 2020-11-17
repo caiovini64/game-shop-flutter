@@ -39,6 +39,15 @@ class MyApp extends StatelessWidget {
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),
+            bodyText1: TextStyle(
+              fontSize: 14,
+              color: neutralColor,
+            ),
+            bodyText2: TextStyle(
+              fontSize: 14,
+              color: accentColor,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
         home: ProductOverviewScreen(),
