@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primaryColor: primaryColor,
@@ -29,7 +30,11 @@ class MyApp extends StatelessWidget {
           border: InputBorder.none,
         ),
         textTheme: TextTheme(
-          headline1: TextStyle(color: neutralColorOpacity),
+          headline1: TextStyle(
+            color: neutralColorOpacity,
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       home: ProductOverviewScreen(),
