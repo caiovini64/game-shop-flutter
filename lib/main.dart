@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:steam_redesign/providers/games_provider.dart';
+import 'package:steam_redesign/utils/app_routes.dart';
 import 'package:steam_redesign/utils/colors_constants.dart';
+import 'package:steam_redesign/views/game_detail_screen.dart';
 
-import 'views/product_overview_screen.dart';
+import 'views/game_overview_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -50,7 +52,10 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        home: ProductOverviewScreen(),
+        home: GameOverviewScreen(),
+        routes: {
+          AppRoutes.GAME_DETAIL: (ctx) => GameDetailScreen(),
+        },
       ),
     );
   }

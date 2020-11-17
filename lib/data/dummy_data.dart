@@ -16,12 +16,12 @@ final DUMMY_GAMES = [
   Game(
     id: 'p2',
     popular: false,
-    title: 'Horizon Zero Dawn',
+    title: 'Watch Dogs Legion',
     description:
-        'Join Aloy on her journey across a vast open-world that’s defined by the presence of robotic wildlife. Equipped with a futuristic bow and an augmented reality device called the Focus, Aloy will have to face against the mechanical life forms in combat sequences that are presented from a third-person perspective.',
+        'Watch Dogs: Legion is an action-adventure game played from a third-person perspective, and takes place within an open world setting based upon London, which can be explored either on foot ─ utilizing parkour moves ─ vehicles, or fast-travelling via the citys Underground stations.',
     price: 59.99,
     imageUrl:
-        'https://cdn-products.eneba.com/resized-products/cfp1c3QENHakdjuf424Yt6hVn_mmFbOV-M8rITUoVj8_350x200_1x-0.jpeg',
+        'https://www.elite3d.com/wp-content/uploads/2019/12/elite3d-watch-dogs-legion-cover.jpg',
   ),
   Game(
     id: 'p3',
