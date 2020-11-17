@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:steam_redesign/components/populars_games.dart';
+import 'package:steam_redesign/components/recommended_games.dart';
 import 'package:steam_redesign/components/search_box.dart';
 
 class ProductOverviewScreen extends StatelessWidget {
@@ -27,6 +28,7 @@ class ProductOverviewScreen extends StatelessWidget {
           children: [
             SearchBox(),
             PopularsGames(),
+            RecommendedGames(),
           ],
         ),
       ),
