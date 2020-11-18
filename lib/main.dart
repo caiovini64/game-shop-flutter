@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       create: (context) => GamesProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'Flutter',
         theme: ThemeData(
           primaryColor: primaryColor,
           backgroundColor: backgroundColor,
