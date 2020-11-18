@@ -41,6 +41,20 @@ class MyApp extends StatelessWidget {
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),
+            headline2: TextStyle(
+              color: neutralColor,
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+            ),
+            headline3: TextStyle(
+              color: accentColor,
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+            ),
+            headline4: TextStyle(
+              color: neutralColorOpacity,
+              fontSize: 14,
+            ),
             bodyText1: TextStyle(
               fontSize: 14,
               color: neutralColor,
@@ -51,6 +65,7 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          textButtonTheme: TextButtonThemeData(),
         ),
         home: GameOverviewScreen(),
         routes: {
