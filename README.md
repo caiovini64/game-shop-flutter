@@ -38,7 +38,7 @@ final DUMMY_GAMES = [
 
 ## UI
 
--[Interface (Figma)](https://www.figma.com/file/wolbgBIfOZaqiLEwkZd6FS/Untitled?node-id=0%3A1)
+- [Interface (Figma)](https://www.figma.com/file/wolbgBIfOZaqiLEwkZd6FS/Untitled?node-id=0%3A1)
 
 
  
