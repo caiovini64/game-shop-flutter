@@ -6,6 +6,7 @@ Projeto de aplicativo para aprender como implementar a lógica do BLoC utilizand
 
 * Flutter
 * Provider
+* Figma
 
 ## Funcionalidades
 
@@ -35,6 +36,9 @@ final DUMMY_GAMES = [
 ```
 
 
+## UI
+
+-[Interface (Figma)](https://www.figma.com/file/wolbgBIfOZaqiLEwkZd6FS/Untitled?node-id=0%3A1)
 
 
  
