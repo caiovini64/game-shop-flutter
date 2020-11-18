@@ -15,6 +15,8 @@ Projeto de aplicativo para aprender como implementar a lógica do BLoC utilizand
  
 ## Dados
 
+Foram utilizados dados fictícios para os items.
+
 ```dart
 final DUMMY_GAMES = [
   Game(
@@ -29,6 +31,7 @@ final DUMMY_GAMES = [
     imageUrl:
         'https://upload.wikimedia.org/wikipedia/pt/f/f7/Cyberpunk_2077_capa.png',
   ),
+ ];
 ```
 
 
