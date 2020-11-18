@@ -8,9 +8,9 @@ Projeto de aplicativo para aprender como implementar a lógica do BLoC utilizand
 * Provider
 
 ## Funcionalidades
- -[x] Navegar para página de detalhes do item
- -[] Colocar item no carrinho
- -[] Retirar item do carrinho
+- [x] Navegar para página de detalhes do item
+- [ ] Colocar item no carrinho
+- [ ] Retirar item do carrinho
  
 ## Modelos
 
