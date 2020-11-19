@@ -10,15 +10,16 @@ class Game with ChangeNotifier {
   bool popular;
   bool isFavorite;
 
-  Game(
-      {@required this.id,
-      @required this.title,
-      @required this.description,
-      @required this.price,
-      this.coverUrl,
-      this.imageUrl,
-      this.isFavorite = false,
-      this.popular});
+  Game({
+    @required this.id,
+    @required this.title,
+    @required this.description,
+    @required this.price,
+    this.coverUrl,
+    this.imageUrl,
+    this.isFavorite = false,
+    this.popular,
+  });
 
   void toggleFavorite() {
     isFavorite = !isFavorite;
