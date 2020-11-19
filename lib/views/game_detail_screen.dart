@@ -32,24 +32,49 @@ class GameDetailScreen extends StatelessWidget {
               ),
             ),
             GameInformations(game),
-            RaisedButton(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
-              color: Theme.of(context).primaryColor,
-              child: Padding(
-                padding: const EdgeInsets.only(
-                    left: 100.0, right: 100, top: 14, bottom: 14),
-                child: Text(
-                  'Add to Cart',
-                  style: TextStyle(
-                    color: Theme.of(context).primaryColorLight,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
+            Row(
+              children: [
+                RaisedButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
                   ),
+                  color: Theme.of(context).primaryColor,
+                  child: Padding(
+                    padding: const EdgeInsets.only(
+                        left: 60.0, right: 60, top: 14, bottom: 14),
+                    child: Text(
+                      'Add to Cart',
+                      style: TextStyle(
+                        color: Theme.of(context).primaryColorLight,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  onPressed: () {},
                 ),
-              ),
-              onPressed: () {},
+                SizedBox(
+                  width: 8,
+                ),
+                RaisedButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  color: Theme.of(context).primaryColor,
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 14, bottom: 14),
+                    child: Icon(
+                      game.isFavorite == false
+                          ? Icons.favorite_border_outlined
+                          : Icons.favorite,
+                      color: Theme.of(context).primaryColorLight,
+                    ),
+                  ),
+                  onPressed: () {
+                    game.toggleFavorite();
+                  },
+                ),
+              ],
             ),
           ],
         ),
