@@ -11,6 +11,8 @@ Projeto de aplicativo para aprender como implementar a lógica do BLoC utilizand
 ## Funcionalidades
 
 - [x] Navegar para página de detalhes do item
+- [ ] Favoritar item
+- [ ] Navegar para página com itens favoritados
 - [ ] Colocar item no carrinho
 - [ ] Retirar item do carrinho
  
