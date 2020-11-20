@@ -11,10 +11,6 @@ class GameOverviewScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).backgroundColor,
         elevation: 0,
-        leading: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () {},
-        ),
         actions: [
           IconButton(
             icon: Icon(Icons.shopping_cart_outlined),

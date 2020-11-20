@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
 import 'package:steam_redesign/components/popular_card_game.dart';
-import 'package:steam_redesign/models/game.dart';
+import 'package:steam_redesign/providers/game.dart';
 import 'package:steam_redesign/providers/games_provider.dart';
-import 'package:steam_redesign/utils/app_routes.dart';
 
 class PopularsGames extends StatelessWidget {
   @override
