@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:steam_redesign/components/card_games.dart';
-import 'package:steam_redesign/models/game.dart';
+import 'package:steam_redesign/providers/game.dart';
 import 'package:steam_redesign/providers/games_provider.dart';
 
 class RecommendedGames extends StatelessWidget {

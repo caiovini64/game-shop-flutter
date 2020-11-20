@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:steam_redesign/models/game.dart';
+import 'package:steam_redesign/providers/game.dart';
 
 class GameInformations extends StatelessWidget {
   const GameInformations(this.game);

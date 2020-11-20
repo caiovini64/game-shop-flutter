@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:steam_redesign/components/game_information.dart';
-import 'package:steam_redesign/models/game.dart';
+import 'package:steam_redesign/providers/cart.dart';
+import 'package:steam_redesign/providers/game.dart';
 
 class GameDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Game game = ModalRoute.of(context).settings.arguments as Game;
+    final Cart cart = Provider.of<Cart>(context, listen: false);
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: AppBar(
@@ -51,7 +54,10 @@ class GameDetailScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    cart.addItem(game);
+                    print(cart.itemCount);
+                  },
                 ),
                 SizedBox(
                   width: 8,

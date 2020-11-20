@@ -1,5 +1,6 @@
-import 'package:steam_redesign/models/game.dart';
+import 'package:steam_redesign/providers/game.dart';
 
+// ignore: non_constant_identifier_names
 final DUMMY_GAMES = [
   Game(
     id: 'p1',
