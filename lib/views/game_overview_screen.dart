@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'package:steam_redesign/components/cart_buttom.dart';
 import 'package:steam_redesign/components/populars_games.dart';
 import 'package:steam_redesign/components/recommended_games.dart';
 import 'package:steam_redesign/components/search_box.dart';
@@ -12,10 +14,7 @@ class GameOverviewScreen extends StatelessWidget {
         backgroundColor: Theme.of(context).backgroundColor,
         elevation: 0,
         actions: [
-          IconButton(
-            icon: Icon(Icons.shopping_cart_outlined),
-            onPressed: () {},
-          )
+          CartButton(),
         ],
       ),
       body: Padding(

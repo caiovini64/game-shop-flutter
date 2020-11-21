@@ -15,6 +15,14 @@ class Cart with ChangeNotifier {
     return _items.length;
   }
 
+  double get totalAmount {
+    double total = 0.0;
+    _items.forEach((key, cartItem) {
+      total += cartItem.price;
+    });
+    return total;
+  }
+
   void addItem(Game game) {
     if (_items.containsKey(game.id)) {
       _items.update(
@@ -23,6 +31,7 @@ class Cart with ChangeNotifier {
                 id: existingItem.id,
                 title: existingItem.title,
                 price: existingItem.price,
+                imageUrl: existingItem.imageUrl,
               ));
     } else {
       _items.putIfAbsent(
@@ -31,6 +40,7 @@ class Cart with ChangeNotifier {
                 id: Random().nextDouble().toString(),
                 title: game.title,
                 price: game.price,
+                imageUrl: game.imageUrl,
               ));
     }
     notifyListeners();

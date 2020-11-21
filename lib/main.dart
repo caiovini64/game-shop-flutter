@@ -4,6 +4,7 @@ import 'package:steam_redesign/providers/cart.dart';
 import 'package:steam_redesign/providers/games_provider.dart';
 import 'package:steam_redesign/utils/app_routes.dart';
 import 'package:steam_redesign/utils/colors_constants.dart';
+import 'package:steam_redesign/views/cart_screen.dart';
 import 'package:steam_redesign/views/game_detail_screen.dart';
 
 import 'views/game_overview_screen.dart';
@@ -78,6 +79,7 @@ class MyApp extends StatelessWidget {
         home: GameOverviewScreen(),
         routes: {
           AppRoutes.GAME_DETAIL: (ctx) => GameDetailScreen(),
+          AppRoutes.CART_SCREEN: (ctx) => CartScreen(),
         },
       ),
     );
