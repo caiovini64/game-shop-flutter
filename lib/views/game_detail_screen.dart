@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:steam_redesign/components/cart_buttom.dart';
 import 'package:steam_redesign/components/game_information.dart';
 import 'package:steam_redesign/providers/cart.dart';
 import 'package:steam_redesign/providers/game.dart';
@@ -13,10 +14,7 @@ class GameDetailScreen extends StatelessWidget {
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: AppBar(
         actions: [
-          IconButton(
-            icon: Icon(Icons.shopping_cart_outlined),
-            onPressed: () {},
-          ),
+          CartButton(),
         ],
         backgroundColor: Theme.of(context).backgroundColor,
         elevation: 0,
