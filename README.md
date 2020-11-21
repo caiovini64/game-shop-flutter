@@ -11,10 +11,16 @@ Projeto de aplicativo para aprender como implementar a lógica do BLoC utilizand
 ## Funcionalidades
 
 - [x] Navegar para página de detalhes do item
-- [ ] Favoritar item
+- [x] Favoritar item
 - [ ] Navegar para página com itens favoritados
-- [ ] Colocar item no carrinho
+- [x] Colocar item no carrinho
+- [ ] Navegar para página do carrinho
 - [ ] Retirar item do carrinho
+
+## UI
+
+ [Interface (Figma)](https://www.figma.com/file/wolbgBIfOZaqiLEwkZd6FS/Untitled?node-id=0%3A1)
+
  
 ## Dados
 
@@ -37,10 +43,6 @@ final DUMMY_GAMES = [
  ];
 ```
 
-
-## UI
-
- [Interface (Figma)](https://www.figma.com/file/wolbgBIfOZaqiLEwkZd6FS/Untitled?node-id=0%3A1)
 
 
  
