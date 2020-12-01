@@ -21,17 +21,6 @@ class PopularCardGame extends StatelessWidget {
             game.coverUrl,
             alignment: Alignment.topLeft,
           ),
-          Consumer<Game>(
-            builder: (context, game, _) => IconButton(
-              icon: game.isFavorite
-                  ? Icon(Icons.favorite)
-                  : Icon(Icons.favorite_border),
-              color: Theme.of(context).accentColor,
-              onPressed: () {
-                game.toggleFavorite();
-              },
-            ),
-          ),
         ],
       ),
     );
