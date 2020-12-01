@@ -53,19 +53,6 @@ class CardGames extends StatelessWidget {
                   ],
                 ),
               ),
-              Consumer<Game>(
-                builder: (context, game, _) => IconButton(
-                  icon: Icon(
-                    game.isFavorite == true
-                        ? Icons.favorite
-                        : Icons.favorite_border,
-                    color: Theme.of(context).accentColor,
-                  ),
-                  onPressed: () {
-                    game.toggleFavorite();
-                  },
-                ),
-              ),
             ],
           ),
         ),
