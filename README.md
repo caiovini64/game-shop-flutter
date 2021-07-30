@@ -15,11 +15,6 @@ Projeto de aplicativo para aprender como implementar a lógica do BLoC utilizand
 - [x] Navegar para página do carrinho
 - [ ] Retirar item do carrinho
 
-## UI
-
- [Interface (Figma)](https://www.figma.com/file/wolbgBIfOZaqiLEwkZd6FS/Untitled?node-id=0%3A1)
-
- 
 ## Dados
 
 Foram utilizados dados fictícios para os items.
